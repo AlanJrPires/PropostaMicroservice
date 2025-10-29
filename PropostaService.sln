@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		src\PropostaService.API\Dockerfile = src\PropostaService.API\Dockerfile
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.API", "src\PropostaService.API\PropostaService.API.csproj", "{351F44A5-1357-437F-A807-DBA8D9024A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Domain", "src\PropostaService.Domain\PropostaService.Domain.csproj", "{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Application", "src\PropostaService.Application\PropostaService.Application.csproj", "{B0F377D3-428D-49F4-972F-B395930EE32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Infrastructure", "src\PropostaService.Infrastructure\PropostaService.Infrastructure.csproj", "{9853DBA6-47A1-4462-B542-6FD9FDBCDA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropostaService.Tests", "src\PropostaService.Tests\PropostaService.Tests.csproj", "{78A83888-61F6-4A5D-B13C-9162C96861F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351F44A5-1357-437F-A807-DBA8D9024A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351F44A5-1357-437F-A807-DBA8D9024A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351F44A5-1357-437F-A807-DBA8D9024A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351F44A5-1357-437F-A807-DBA8D9024A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F377D3-428D-49F4-972F-B395930EE32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F377D3-428D-49F4-972F-B395930EE32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F377D3-428D-49F4-972F-B395930EE32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F377D3-428D-49F4-972F-B395930EE32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9853DBA6-47A1-4462-B542-6FD9FDBCDA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9853DBA6-47A1-4462-B542-6FD9FDBCDA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9853DBA6-47A1-4462-B542-6FD9FDBCDA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9853DBA6-47A1-4462-B542-6FD9FDBCDA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A83888-61F6-4A5D-B13C-9162C96861F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A83888-61F6-4A5D-B13C-9162C96861F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A83888-61F6-4A5D-B13C-9162C96861F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A83888-61F6-4A5D-B13C-9162C96861F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{351F44A5-1357-437F-A807-DBA8D9024A41} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3C2FC103-7A0A-4A63-A9E3-219AD567CC1B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B0F377D3-428D-49F4-972F-B395930EE32A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9853DBA6-47A1-4462-B542-6FD9FDBCDA69} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{78A83888-61F6-4A5D-B13C-9162C96861F3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93DAF6D6-4C3E-4A08-957F-24BF76A23833}
+	EndGlobalSection
+EndGlobal
