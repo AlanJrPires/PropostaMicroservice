@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PropostaService.Domain.Entities
+﻿namespace PropostaService.Domain.Entities
 {
-    internal class StatusProposta
+    /// <summary>
+    /// Enum que representa os possíveis status de uma proposta de seguro.
+    /// </summary>
+    public enum StatusProposta
     {
+        EmAnalise = 0,
+        Aprovada = 1,
+        Rejeitada = 2
     }
 }

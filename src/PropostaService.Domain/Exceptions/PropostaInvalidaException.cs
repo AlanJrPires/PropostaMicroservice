@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PropostaService.Domain.Exceptions
 {
-    internal class PropostaInvalidaException
+    /// <summary>
+    /// Exceção de domínio usada para sinalizar violações de regras de negócio.
+    /// </summary>
+    public class PropostaInvalidaException : Exception
     {
+        public PropostaInvalidaException(string mensagem)
+            : base(mensagem)
+        {
+        }
     }
 }
