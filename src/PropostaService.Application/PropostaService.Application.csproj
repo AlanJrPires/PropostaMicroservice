@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PropostaService.Domain\PropostaService.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

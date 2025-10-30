@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PropostaService.Application.DTOs
+﻿namespace PropostaService.Application.DTOs
 {
-    internal class CriarPropostaRequest
+    /// <summary>
+    /// Representa os dados necessários para criar uma nova proposta.
+    /// </summary>
+    public class CriarPropostaRequest
     {
+        public string NomeCliente { get; set; } = string.Empty;
+        public decimal ValorSeguro { get; set; }
     }
 }
