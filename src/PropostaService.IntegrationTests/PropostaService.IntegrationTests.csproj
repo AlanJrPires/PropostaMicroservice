@@ -20,10 +20,4 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DomainTests\" />
-    <Folder Include="ApplicationTests\" />
-    <Folder Include="ApiTests\" />
-  </ItemGroup>
-
 </Project>
